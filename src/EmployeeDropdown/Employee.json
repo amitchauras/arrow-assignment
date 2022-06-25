@@ -1,0 +1,28 @@
+
+[
+    {
+        "type": "group",
+        "name": "All Employee",
+        "items": [
+            { "name": "All Employee", "value": "1"}
+        ]
+    },
+    {
+        "type": "group",
+        "name": "All practitioners",
+        "items": [
+            { "name": "Dr.Xavier III", "value": "2" },
+            { "name": "Dr.Don Health", "value": "3" },
+            { "name": "Dr.Siegfried Tausend", "value": "4" }
+        ]
+    },
+    {
+        "type": "group",
+        "name": "All assistants",
+        "items": [
+            { "name": "Dr.Xavier III", "value": "5" },
+            { "name": "Dr.Don Health", "value": "6" },
+            { "name": "Dr.Siegfried Tausend", "value": "7" }
+        ]
+    }
+]
