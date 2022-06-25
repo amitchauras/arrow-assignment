@@ -50,14 +50,19 @@ export const EmployeeDropdown = () => {
             />
         );
     };
-    debugger
+
+    const employeeDataLength = () => {
+        const Employee = EmployeeData.map((item) => item.items.length)
+        const EmployeeLength = Employee.reduce((partialSum, a) => partialSum + a, 0);
+        return EmployeeLength
+    }
     return (
         <>
             {
                 click ?
                     <IconTextField
                         label="Select Employee"
-                        iconStart={EmployeeData.length}
+                        iconStart={employeeDataLength()}
                         iconEnd={<ArrowDropDownIcon sx={{ color: "#0089ff", fontSize: 20 }} />}
                         onClick={() => setClick(false)}
                         value={personName}
@@ -65,7 +70,7 @@ export const EmployeeDropdown = () => {
                     <>
                         <IconTextField
                             label="Select Employee"
-                            iconStart={EmployeeData.length}
+                            iconStart={employeeDataLength()}
                             iconEnd={<ArrowDropUpIcon sx={{ color: "#0089ff", fontSize: 20 }} />}
                             onClick={() => setClick(true)}
                             value={personName}
