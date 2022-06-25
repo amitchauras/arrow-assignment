@@ -20,9 +20,9 @@
         "type": "group",
         "name": "All assistants",
         "items": [
-            { "name": "Dr.Xavier III", "value": "5" },
-            { "name": "Dr.Don Health", "value": "6" },
-            { "name": "Dr.Siegfried Tausend", "value": "7" }
+            { "name": "Dr.John Doe", "value": "5" },
+            { "name": "Dr.Norman Joe", "value": "6" },
+            { "name": "Dr.Stephen", "value": "7" }
         ]
     }
 ]
