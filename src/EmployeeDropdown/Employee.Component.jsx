@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import "../styles.css";
 import SelectSearch from "react-select-search";
-import { useRef } from "react";
 import EmployeeData from './Employee.json';
 import InputAdornment from "@mui/material/InputAdornment";
 import TextField from "@mui/material/TextField";
