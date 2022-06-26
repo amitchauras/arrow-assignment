@@ -4,25 +4,25 @@
         "type": "group",
         "name": "All Employee",
         "items": [
-            { "name": "All Employee", "value": "1"}
+            { "name": "All Employee", "value": "All Employee" }
         ]
     },
     {
         "type": "group",
         "name": "All practitioners",
         "items": [
-            { "name": "Dr.Xavier III", "value": "2" },
-            { "name": "Dr.Don Health", "value": "3" },
-            { "name": "Dr.Siegfried Tausend", "value": "4" }
+            { "name": "Dr.Xavier III", "value": "Dr.Xavier III" },
+            { "name": "Dr.Don Health", "value": "Dr.Don Health" },
+            { "name": "Dr.Siegfried Tausend", "value": "Dr.Siegfried Tausend"  }
         ]
     },
     {
         "type": "group",
         "name": "All assistants",
         "items": [
-            { "name": "Dr.John Doe", "value": "5" },
-            { "name": "Dr.Norman Joe", "value": "6" },
-            { "name": "Dr.Stephen", "value": "7" }
+            { "name": "Dr.John Doe", "value": "Dr.John Doe"  },
+            { "name": "Dr.Norman Joe", "value": "Dr.Norman Joe" },
+            { "name": "Dr.Stephen", "value": "Dr.Stephen"  }
         ]
     }
 ]
